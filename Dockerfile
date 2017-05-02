@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:latest
 COPY . /app
 WORKDIR /app
-EXPOSE 80
+EXPOSE 5005
 ENTRYPOINT ["dotnet","d1.dll"]
