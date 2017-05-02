@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:latest
-COPY ./app
+COPY . /app
 WORKDIR /app
 EXPOSE /tcp
 ENTRYPOINT ["dotnet","aspnetcore.dll"]
