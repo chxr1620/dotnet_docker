@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:latest
 COPY . /app
 WORKDIR /app
-EXPOSE /tcp
+EXPOSE 80
 ENTRYPOINT ["dotnet","aspnetcore.dll"]
